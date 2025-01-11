@@ -1,0 +1,29 @@
+{
+  "name": "web-proxy",
+  "version": "0",
+  "description": "A localhost web proxy built with Express and http-proxy-middleware.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "web-proxy": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/web-proxy.git"
+  },
+  "keywords": [
+    "web-proxy",
+    "proxy",
+    "express",
+    "http-proxy-middleware",
+    "localhost"
+  ],
+  "author": "voidedflame_0",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6"
+  }
+}
